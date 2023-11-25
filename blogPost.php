@@ -21,8 +21,6 @@ if (isset($_SESSION['email'])) {
         $title = $_POST['title'];
         $image = $_POST['image'];
         $description = $_POST['description'];
-
-        // Replace single quotes and double quotes with inverted commas
         $description = str_replace("'", "‘", $description);
         $description = str_replace('"', '“', $description);
         $description = str_replace('\'', '', $description);

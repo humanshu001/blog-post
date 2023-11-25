@@ -26,9 +26,6 @@ if (isset($_SESSION['email'])) {
 
   $name = $result->fetch_assoc()['username'];
   
-  
-
-
 $query = "SELECT * FROM `blogs`";
 $blogs = $db->select($query);
 
