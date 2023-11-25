@@ -25,8 +25,7 @@ if (isset($_SESSION['email'])) {
         // Replace single quotes and double quotes with inverted commas
         $description = str_replace("'", "‘", $description);
         $description = str_replace('"', '“', $description);
-
-        // END: abpxx6d04wxr
+        $description = str_replace('\'', '', $description);
         $sql = "INSERT INTO `blogs` (`user_id`, `heading`, `image`, `content`) VALUES ('$user_id', '$title', '$image', '$description')";
         $db->insert($sql);
     }
