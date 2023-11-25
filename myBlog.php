@@ -90,6 +90,7 @@ while ($blog = $blogs->fetch_assoc()) {
           <p class='p-2'>
             <?php echo $blog['content']; ?>
           </p>
+        </div>
       <?php }} ?>
 
     </div>
