@@ -2,7 +2,12 @@
 
 Welcome to Anonymous Blogger! 🚀
 
-    Anonymous Blogger is a dynamic and user-friendly blog platform equipped with features that empower anonymous users to share their thoughts and engage in discussions through anonymous comments and replies. 💬✨
+Anonymous Blogger is a dynamic and user-friendly blog platform
+equipped with features that empower anonymous users to share their
+thoughts and engage in discussions through anonymous comments
+and replies. 💬✨
+
+
 
 ### Key Features:
 
